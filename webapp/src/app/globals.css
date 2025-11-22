@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --background: #f7fbf9;
+  --foreground: #0f3b34;
+  --emerald-50: #f4fbf7;
+  --emerald-100: #d9f3e7;
+  --emerald-200: #b5e7d2;
+  --emerald-300: #8bd8b7;
+  --emerald-400: #61cba0;
+  --emerald-500: #39bd8a;
+  --emerald-600: #25966e;
+  --emerald-700: #1d7053;
+  --emerald-800: #154f3a;
+  --emerald-900: #0f3b34;
+  --stone-100: #f5f5f4;
+  --stone-300: #d6d3d1;
+  --stone-500: #78716c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-emerald-50: var(--emerald-50);
+  --color-emerald-100: var(--emerald-100);
+  --color-emerald-200: var(--emerald-200);
+  --color-emerald-300: var(--emerald-300);
+  --color-emerald-400: var(--emerald-400);
+  --color-emerald-500: var(--emerald-500);
+  --color-emerald-600: var(--emerald-600);
+  --color-emerald-700: var(--emerald-700);
+  --color-emerald-800: var(--emerald-800);
+  --color-emerald-900: var(--emerald-900);
+  --color-stone-100: var(--stone-100);
+  --color-stone-300: var(--stone-300);
+  --color-stone-500: var(--stone-500);
+  --font-sans: var(--font-arabic), system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-arabic), "Noto Sans Arabic", system-ui, sans-serif;
+}
